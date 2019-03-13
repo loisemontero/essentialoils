@@ -1,0 +1,182 @@
+* {box-sizing: border-box;}
+body { background-color: #fff0f5; 
+    font-family: Verdana, Arial, sans-serif;
+    color: #3F2860;}
+
+header { background-color: #e6e6fa;
+        height: 130px;
+        }
+
+footer { background-color: #e6e6fa;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+    padding: 1em;
+}
+span {color: hotpink;
+    
+    font-weight: bold;}
+nav { float:none;
+    width: auto;
+    padding-left: 17em;
+    padding-top: 0.5em;
+    margin-bottom: 2em;
+    height: 3em;
+    background: #ffb3ba;
+    margin-bottom: 0;
+    
+   }
+
+nav a {padding: 0.2em;
+    margin-left: 0.3em;
+    float: left;
+    width: 23%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px}
+}
+nav a:visited {
+    color: 497777;
+}
+nav a:hover {
+    color: deeppink;
+}
+
+h1 {padding-left: 4em;
+font-family: serif;
+font-size: 4em;
+padding-top: 0.3em;
+font-style: italic;
+margin-bottom: 0;
+}
+h2 {margin-top: 3em;}
+li { font-size: 90%;}
+
+main{
+    padding-left: 8em;
+    padding-right: 4em;
+    padding-bottom: 4em;
+    padding-top: 4em;
+    display: block;
+
+}
+.TypesPage {padding-left: 10em;}
+.TypesPage dt {font-size: 1.5em;}
+.lavender {height: 400px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url(lavender.jpg);}
+.Mortar {margin-left: 7em;
+        
+        margin-top: 6em;}
+.Mortar figcaption {font-size: 80%;
+        padding-left: 9em;}
+dt {font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 2em;}
+article {width: 600px;}
+details {width: 500px;
+        margin-bottom: 2em;}
+header, main, nav, footer, article { display: block;}
+.cover {height: 500px;
+        background-image: url(oilcover.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;}
+.subhead {padding-left: 21em;
+        margin-top: 0;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 1.5em;
+        font-family: serif;}
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    color: #3f2860;
+    background-color: #FFFFFF;
+    min-width: 550px;
+    max-width: 1280px;
+}
+
+.bottle {background-image: url(bottles.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5em;
+        margin-bottom: 0;}
+.TypesOfOils{margin-top: 2em;
+            font-size: 30px;}
+
+@media only screen and (max-width: 64em) {
+    body {margin: 0;
+        padding: 0;}
+    .wrapper {min-width: 0;
+    width: auto;
+    margin: 0;
+    padding: 0;}
+    header {padding-top: 1px;
+    text-align: center;}
+    h1{ padding: 2px;}
+    main {padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 90%;}
+    nav { 
+    width: auto;
+    padding-left: 6em;}
+    h2, h3, p, dl {padding-left: 2em;
+    padding-right: 2em;}
+    main ul {margin-left: 2em;}
+    .subhead {display: none;}
+    
+
+    
+}
+@media only screen and (max-width: 37.5em) {
+    h1 {font-size: 3em;
+    padding-left: 1.5em;
+    width: 85%;
+    text-align: center;
+    }
+    header {height: 10em;
+        width: 100%;
+    }
+    nav a {padding:0.5em;
+        display: block;  
+    background: #ffb3ba;
+    width: 100%;
+        border: 2px solid white;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 0;
+    }
+    nav {background: none;
+    height: 8em;
+    margin-bottom: 3em;
+    margin-top:  0.2em;
+    padding: 0;
+    width: 100%}
+    li {font-size: 100%;}
+    footer {padding: 0.5em;
+    margin: 0;}
+    .subhead {display: none;}
+    .cover {display: none;}
+    article{width: auto;
+            font-size: 90%;}
+    details{width: auto;}
+    figure {display: none;}
+    .bottle {display: none;}
+    .TypesPage {
+        width: auto;
+        padding-left: 1em;
+    }
+   
+    .lavender {display: none;}
+    
+}
